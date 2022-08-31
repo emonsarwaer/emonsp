@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #0d9ca1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .active a.hover {
+    background-color: rgb(78, 16, 16);
+    color: hotpink;
+  }
+  .topnav a:hover {
+    background-color: rgb(65, 201, 106);
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #5189de;
+    color: white;
+  }
+  .active {
+        background-color: #04AA6D;
+        }
+        .tdactive{
+          background-color: #a017a5;
+        }
+        html{
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+        }
+        a{
+            text-decoration: none;
+            color: gray;
+        }
+        .navbar-div li {
+            display: inline;
+            margin-top: 5%;
+            margin: 35px;
+        }   
+        .navbar-div ul {
+            margin-left: 8%;
+            margin-top: 3%;
+            padding: 10px;
+        } 
+        .content{
+            display: flex;
+        }
+        
+        .half-width{
+            width: 40%;
+            padding: 5%;
+        }
+        .heading1{
+            padding-top: 20%;
+            padding-left: 10%;
+            font-weight: 900;
+            font-size: 20px;
+            color: #575757;
+        }
+        .heading1 h1{
+            font-size: 50px;
+            
+        }
+        
+        .heading1 p{
+            padding-top: 5%;
+            padding-bottom: 3%;
+            font-weight: 100;
+        }
+        .orange{
+            color: #FC8B47;
+        }
+        .linkButton{
+            text-decoration: none;
+            text-align: center;
+            color: white;
+            font-weight: 500;
+            background-image: linear-gradient(to right, orange, #FD5232);
+            box-shadow: 0px 0px 5px 1px orange;
+            padding: 15px 25px;
+            border-radius: 35px;
+        }
+        .backgroundimg{
+            background-image: url(images/shapes/7.png);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            
+        }
+        .image2{
+            position: absolute;
+            height: 415px;
+            width: auto;
+            padding-left: 200px;
+        }
+        .aboutMe{
+            padding-top: 10px;
+        
+        }
+        
+        .aboutMe h1{
+            font-size: 45px;
+            padding-top: 5%;
+            font-weight: 800;
+            color: gray;
+        }
+        
+        .aboutMe p{
+            padding-top: 5%;
+            padding-bottom: 10%;
+        }
+        .my-recipies{
+            padding: 5%;
+            padding-top: 5%;
+            text-align: center;
+        }
+        
+        .my-recipies h1{
+            text-align: center;
+            font-weight: 800;
+            font-size: 40px;
+            color: gray;
+        }
+        
+        .my-recipies p{
+            font-weight: 300;
+        }
+        .recipies-list{
+            display: flex;
+            margin-left: 1%;
+        }
+        
+        .items{
+            box-shadow: 10px 10px 40px grey;
+            margin-right: 1%;
+            padding-top: 35px;
+            padding-left: 35px;
+            padding-right: 0%;
+            border-radius: 50px;
+            padding-bottom: 25px;
+        }
+        
+        .items img{
+            height: 250px;
+            width: 335px;
+        
+        }
+        
+        .items h1{
+            padding-top: 25px;
+            padding-bottom: 25px;
+            text-align: left;
+        }
+        .items p{
+            text-align: justify;
+            margin-right: 20px;
+            font-weight: 200;
+        }
+        
+        /* Social Counts */
+        .social-counts {
+            text-align: center;
+            display: flex;
+            margin-top: 5%;
+            margin-left: 19%;
+            margin-right: 21%;
+            margin-bottom: 3%;
+            padding-left: 9%;
+            padding-bottom: 3%;
+            border-radius: 20px;
+            box-shadow: 10px 10px 40px grey;
+        }
+        
+        .social{
+            margin-right: 17%;
+            padding-top: 5%;
+        }
+        
+        .social h1{
+            font-weight: 900;
+        }
+        
+        /* Newsletter (extras) */
+        .newsLetter{
+            padding-top: 5%;
+            padding-bottom: 5%;
+            text-align: center;
+        }
+        
+        .newsLetter #email{
+            width: 40%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 2px solid orange;
+            border-radius: 5px;
+        }
+        
+        #submit{
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 2px solid orange;
+            background-image: linear-gradient(to right, orange, #FD5232);
+            color: white;
+            border-radius: 5px;
+        }
+        
+        
+        /* footer */
+        footer{
+            padding-top: 3%;
+            text-align: center;
+            color: white;
+            background-color: black;
+            height: 300px;
+        }
+        .footer-style{
+            color: gray;
+        }
+        
+        footer h1{
+            font-weight: 900;
+        }
+        
+        footer p{
+            padding-top: 50px;
+        }
+        
